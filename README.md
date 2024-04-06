@@ -1,3 +1,23 @@
+# Next.js Assignment 3
+
+## Objective
+
+This assignment aims to deepen your understanding of the useEffect hook in React by applying it to a practical scenario: fetching data from the Star Wars API (SWAPI). You will create a component that fetches character data, displays this data, and incorporates loading states and error handling to manage the fetch operation's various states effectively.
+
+## Star Wars Character Display
+
+This project fetches and displays information about a specific Star Wars character from the Star Wars API (SWAPI).
+
+### Description
+
+StarWarsCharacter.jsx : contains a component named 'StarWarsCharacter'. This component fetches data about a specific Star Wars character from SWAPI and displays it. It uses Axios get data from the API and the useState & useEffect hooks to manage state and perform side effects.
+
+Once the data is successfully retrieved it displays the fetched character's name, birth year, height, and gender. Error handling is implemented to display an error message if the data fetching process encounters any issues. Additionally, a loading state is managed to display a loading indicator while data is being fetched.
+
+### Screenshot
+
+![alt text](image.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -17,20 +37,3 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
